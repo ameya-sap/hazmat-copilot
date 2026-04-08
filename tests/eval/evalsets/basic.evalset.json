@@ -1,0 +1,45 @@
+{
+  "eval_set_id": "hazmat_basic_eval",
+  "name": "Hazmat Agent Basic Evaluation",
+  "description": "Evaluation set for testing core Hazmat Co-Pilot agent functionality.",
+  "eval_cases": [
+    {
+      "eval_id": "nitric_acid_ppe",
+      "conversation": [
+        {
+          "user_content": {
+            "parts": [{"text": "What PPE do I need for handling Nitric Acid?"}]
+          },
+          "final_response": {
+            "role": "model",
+            "parts": [{"text": "⚠️ **Nitric Acid** is highly corrosive. You must wear: 🛡️ **PPE**: Chemical resistant gloves, safety goggles, face shield, and protective clothing."}]
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "app",
+        "user_id": "eval_user",
+        "state": {}
+      }
+    },
+    {
+      "eval_id": "hydrogen_peroxide_compliance",
+      "conversation": [
+        {
+          "user_content": {
+            "parts": [{"text": "What are the regulatory classifications for Hydrogen Peroxide?"}]
+          },
+          "final_response": {
+            "role": "model",
+            "parts": [{"text": "⚖️ **Regulations**: Hydrogen Peroxide classifications depend on concentration. Please refer to Section 15 for specific regulatory details."}]
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "app",
+        "user_id": "eval_user",
+        "state": {}
+      }
+    }
+  ]
+}
