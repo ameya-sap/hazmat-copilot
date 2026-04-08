@@ -243,6 +243,7 @@ make eval
    ```
 
 ## 📚 Guides
+- [Medium Blog Post](https://medium.com/@ameyaps_98908/hazmat-copilot-orchestrating-safety-data-intelligence-with-llamaindex-and-google-adk-9b9edb2eeae7): Read the detailed blog post about orchestrating safety data intelligence with LlamaIndex and Google ADK.
 - [Sample Prompts](guides/sample-prompts.md): A list of 19 prompts to test both personas and complex scenarios in the playground.
 - [Cloud SQL pgvector Setup](guides/gcp_cloud_sql_pgvector_setup.md): Step-by-step instructions for creating a PostgreSQL instance in Google Cloud SQL and enabling the `pgvector` extension.
 - [Sample SDS Data](./data): A folder containing sample Safety Data Sheets used for testing.

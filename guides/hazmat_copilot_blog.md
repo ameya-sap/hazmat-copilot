@@ -90,5 +90,5 @@ Explore the implementation details in this repository:
 *   Check out [`app/ingest.py`](../app/ingest.py) to see the metadata enrichment pipeline.
 *   Review [`app/agent.py`](../app/agent.py) for the multi-agent setup.
 
-To see the complete implementation and try it yourself, visit the **Hazmat Copilot GitHub repository**. If you find this architecture useful, please consider giving it a star!
+To see the complete implementation and try it yourself, visit the [Hazmat Copilot GitHub repository](https://github.com/ameya-sap/hazmat-copilot). If you find this architecture useful, please consider giving it a star!
 
